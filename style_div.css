@@ -13,6 +13,11 @@ body
     margin-left: auto;
     margin-right: auto;
 }
+
+.clear{
+    clear: both;
+}
+
 .rectangle{
     text-align:center;
     margin:20px;
@@ -21,6 +26,7 @@ body
 
 .square{
     width: 50%;
+    float: left;
 }
 
 #copyright
@@ -101,4 +107,5 @@ body
 p{
     margin: 0;
     font-size: 18px;
+    margin-top: 5px;
 }
