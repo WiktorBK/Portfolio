@@ -82,15 +82,22 @@ body
     background-color: #82b367;
 }
 .tile4{
-    width:480px;
-    height: 150px;
+    width:420px;
+    height: 90px;
     background-color: #bf5a5a ;
     text-align: center;
     margin: 10px;
     float: left;
     transition: 0.2s;
+    padding: 30px;
+    font-size: 25px;
+    line-height: 150%;
 
 }
 .tile4:hover{
     background-color: #ae4a4a;
+}
+
+p{
+    margin: 0;
 }
