@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@130;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@120;300&display=swap');
 
 body 
 {
@@ -19,6 +19,10 @@ body
     width: 960px;
 }
 
+.square{
+    width: 50%;
+}
+
 #copyright
 {
     font-size: 10px;
@@ -35,4 +39,58 @@ body
     float:left;
     width: 600px;
     text-align:left;
+}
+
+.tile1{
+    width:230px;
+    height: 150px;
+    background-color: #3095d3 ;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    transition: 0.2s;
+}
+.tile1:hover{
+    background-color: #2084c2;
+}
+
+.tile2{
+    width:230px;
+    height: 150px;
+    background-color: #666666 ;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    transition: 0.2s;
+
+}
+.tile2:hover{
+    background-color: #555555;
+}
+.tile3{
+    width:230px;
+    height: 150px;
+    background-color: #93c478 ;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    transition: 0.2s;
+
+    
+}
+.tile3:hover{
+    background-color: #82b367;
+}
+.tile4{
+    width:480px;
+    height: 150px;
+    background-color: #bf5a5a ;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    transition: 0.2s;
+
+}
+.tile4:hover{
+    background-color: #ae4a4a;
 }
