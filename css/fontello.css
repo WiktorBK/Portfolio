@@ -66,6 +66,7 @@
 } /* '' */
 .icon-github-circled:before {
    content: '\f09b'; 
+   font-size: 70px;
 
   } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
@@ -74,12 +75,12 @@
    margin-top:20px;
    font-size: 70px;
   } /* '' */
-.icon-youtube-play:before { content: '\f16a'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; font-size: 70px;} /* '' */
 .icon-graduation-cap:before {
    content: '\f19d'; 
    margin-top:20px;
    font-size: 70px;
   } /* '' */
 .icon-facebook-official:before { content: '\f230'; } /* '' */
-.icon-twitter-squared:before { content: '\f304'; } /* '' */
-.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
+.icon-twitter-squared:before { content: '\f304'; font-size: 70px; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; font-size: 70px;} /* '' */

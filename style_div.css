@@ -1,111 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@120;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@120;300&display=swap");
 
-body 
-{
-    background-color: #303030;
-    color:white;
-    font-family: 'Poppins', sans-serif;
-}
-
-#container
-{
-    width:1000px;
-    margin-left: auto;
-    margin-right: auto;
+body {
+  background-color: #303030;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
-.clear{
-    clear: both;
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.rectangle{
-    text-align:center;
-    margin:20px;
-    width: 960px;
+.clear {
+  clear: both;
 }
 
-.square{
-    width: 50%;
-    float: left;
+.rectangle {
+  text-align: center;
+  margin: 20px;
+  width: 960px;
 }
 
-#copyright
-{
-    font-size: 10px;
-}
-#time
-{
-    float:left;
-    font-size: 56px;
-    text-align: right;
-}
-#name
-{
-    font-size: 56px;
-    float:left;
-    width: 600px;
-    text-align:left;
+.square {
+  width: 50%;
+  float: left;
 }
 
-.tile1{
-    width:230px;
-    height: 150px;
-    background-color: #3095d3 ;
-    float: left;
-    text-align: center;
-    margin: 10px;
-    transition: 0.2s;
+#copyright {
+  font-size: 10px;
 }
-.tile1:hover{
-    background-color: #2084c2;
+#time {
+  float: left;
+  font-size: 56px;
+  text-align: right;
 }
-
-.tile2{
-    width:230px;
-    height: 150px;
-    background-color: #666666 ;
-    text-align: center;
-    margin: 10px;
-    float: left;
-    transition: 0.2s;
-
-}
-.tile2:hover{
-    background-color: #555555;
-}
-.tile3{
-    width:230px;
-    height: 150px;
-    background-color: #93c478 ;
-    text-align: center;
-    margin: 10px;
-    float: left;
-    transition: 0.2s;
-
-    
-}
-.tile3:hover{
-    background-color: #82b367;
-}
-.tile4{
-    width:420px;
-    height: 90px;
-    background-color: #bf5a5a ;
-    text-align: center;
-    margin: 10px;
-    float: left;
-    transition: 0.2s;
-    padding: 30px;
-    font-size: 25px;
-    line-height: 150%;
-
-}
-.tile4:hover{
-    background-color: #ae4a4a;
+#name {
+  font-size: 56px;
+  float: left;
+  width: 600px;
+  text-align: left;
 }
 
-p{
-    margin: 0;
-    font-size: 18px;
-    margin-top: 5px;
+.tile1 {
+  width: 230px;
+  height: 150px;
+  background-color: #3095d3;
+  float: left;
+  text-align: center;
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.tile2 {
+  width: 230px;
+  height: 150px;
+  background-color: #666666;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  transition: 0.2s;
+}
+
+.tile3 {
+  width: 230px;
+  height: 150px;
+  background-color: #93c478;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  transition: 0.2s;
+}
+
+.tile4 {
+  width: 420px;
+  height: 90px;
+  background-color: #bf5a5a;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  transition: 0.2s;
+  padding: 30px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.tile5 {
+  width: 420px;
+  height: 260px;
+  background-color: #666666;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  transition: 0.2s;
+  padding: 30px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.yt {
+  float: left;
+  height: 90px;
+  margin: 10px;
+  width: 45px;
+  background-color: #d34b4b;
+  text-align: center;
+  padding: 30px;
+  line-height: 150%;
+  font-size: 25px;
+  transition: 0.2s;
+ 
+}
+.tw {
+  float: left;
+  height: 90px;
+  margin: 10px;
+  width: 45px;
+  background-color: #3095d3;
+  text-align: center;
+  padding: 30px;
+  line-height: 150%;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.in {
+  float: left;
+  height: 90px;
+  margin: 10px;
+  width: 45px;
+  background-color: #0072b1;
+  text-align: center;
+  padding: 30px;
+  line-height: 150%;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.git {
+  float: left;
+  height: 90px;
+  margin: 10px;
+  width: 45px;
+  background-color: #000000;
+  text-align: center;
+  padding: 30px;
+  line-height: 150%;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.tile5:hover {
+  background-color: #555555;
+}
+.git:hover {
+  background-color: #111111;
+}
+.yt:hover {
+  background-color: #c23a3a;
+}
+.tw:hover {
+  background-color: #2084c2;
+}
+.in:hover {
+  background-color: #0061a0;
+}
+.tile4:hover {
+  background-color: #ae4a4a;
+}
+.tile3:hover {
+  background-color: #82b367;
+}
+.tile2:hover {
+  background-color: #555555;
+}
+.tile1:hover {
+  background-color: #2084c2;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  margin-top: 5px;
 }
